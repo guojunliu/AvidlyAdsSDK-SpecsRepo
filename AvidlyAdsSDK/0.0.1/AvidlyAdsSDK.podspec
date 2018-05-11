@@ -22,7 +22,7 @@ Avidly Ad SDK.
 
   # s.source_files = 'Framework/Appnext/include/*', 'Framework/Chance/include/*', 'Framework/GDT/include/*'
   
-  s.resources = "Framework/Tapjoy/Resources/*"
+  s.resources = "Framework/AvidlyAdsSDK/resource/*", "Framework/Tapjoy/Resources/*"
 
   # s.public_header_files = 'Framework/Appnext/include/*', 'Framework/Chance/include/*', 'Framework/GDT/include/*'
 
@@ -32,6 +32,6 @@ Avidly Ad SDK.
 
   # s.vendored_libraries = "Framework/Appnext/libAppnextLib.a", "Framework/Appnext/libAppnextSDKCore.a", "Framework/Chance/libChanceAd_Video.a", "Framework/GDT/libGDTMobSDK.a"
 
-  s.vendored_frameworks = 'Framework/Tapjoy/Tapjoy.framework'
+  s.vendored_frameworks = 'Framework/AvidlyAdsSDK/AvidlyAdsSDK.framework', 'Framework/Tapjoy/Tapjoy.framework'
 
 end
